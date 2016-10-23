@@ -1,0 +1,73 @@
+/* General */
+
+.container {
+    width: 1200px;
+}
+
+#content {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content h1 {
+    text-align: center;
+}
+
+/* Header */
+
+.header {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #ddd;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#title {
+    float: left;
+}
+
+/* Menu */
+
+.header .menu {
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.menu li {
+    display: inline;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu a {
+    color: #898989;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("Videos/abstract-green.jpg") no-repeat;
+    background-size: cover;
+}
+
